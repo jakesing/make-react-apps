@@ -54,6 +54,11 @@ body {
   text-decoration: none;
 }
 
+.tab a:hover {
+  font-weight: bold;
+  color: black;
+}
+
 .tab a.is-active {
   background: #5131a9;
   color: #eee;
@@ -90,3 +95,16 @@ body {
 /**
  * Add your highlight code here
  */
+.highlight {
+  display: block;
+  position: absolute;
+  height: 80px;
+  width: 300px;
+  top: -10px;
+  left: -100px;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: radial-gradient(white, rgba(157, 128, 238, 0));
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
